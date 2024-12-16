@@ -75,3 +75,11 @@ fun PengelolaHalaman(
                 )
             }
         }
+        composable(
+            DestinasiUpdate.routesWithArg,
+            arguments = listOf(
+                navArgument(DestinasiUpdate.NIM) {
+                    type = NavType.StringType
+                }
+            )
+        ) {
