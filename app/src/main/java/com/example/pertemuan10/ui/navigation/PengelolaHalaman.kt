@@ -83,3 +83,15 @@ fun PengelolaHalaman(
                 }
             )
         ) {
+            UpdateMhsView(
+                onBack = {
+                    navController.popBackStack()
+                },
+                onNavigate = {
+                    navController.popBackStack()
+                },
+                modifier = modifier
+            )
+        }
+    }
+}
